@@ -1,0 +1,50 @@
+
+Advantlis Working Group 2025-2027 funded by AG-Fisk grant
+(274)-2024-Advantlis.
+
+First workshop will be XX – XX March, 2025 in Hafnarfjörður, Iceland.
+
+ToRs (please add, edit as you see appropriate).
+
+1.  Atlantis development. It would be helpful if we could push changes
+    to CSIRO.
+
+2.  Integrating thermal responses into Atlantis.
+
+3.  Integrating Atlantis into the management process
+
+4.  Atlantis and 30x30, how do we evaluate marine spatial planning, is
+    Atlantis the correct tool? Are the polygons too large?
+
+5.  Model skill. What is good enough? Can we build a framework to
+    formalize model skill testing? (See Olsen, 2016)
+
+6.  SE component linkage, external models via R vs internal module.
+
+7.  Check how migratory species move. Do they go through other boxes or
+    just disappear?
+
+8.  Atlantis as an operating model
+
+We will invite the economists to join us for Thursday and/or Friday.
+
+Some people at MFRI who I would like to invite. Erla Sturludóttir, if
+she can join for the whole time that would be great ash she is an
+Atlantis modeler and developed the Iceland model. Bjarki Elvarrson, who
+is the lead of the stock assessment team at MFRI and has very good
+thoughts on Atlantis implementation. I will ask Bjarki to join for
+discussion of ToRs 3 and 4. Julian Burgos, a benthic expert who is doing
+a lot of work on 30x30 (ToR 4). Pamela Woods, a fisheries biologist with
+expertise in socioeconomic aspects (ToRs 3 and 6). If we keep ToR 8 then
+I would invite William Butler who has done some work using Atlantis as
+an OM for Gadget.
+
+Agenda:
+
+| Monday | Tuesday | Wednesday | Thursday       | Friday         |
+|:-------|:--------|:----------|:---------------|:---------------|
+|        | Tor 3   | Tor 6     |                | SE integration |
+|        | Tor 3   |           |                | SE integration |
+| Lunch  | Lunch   | Lunch     | Lunch          | Lunch          |
+| Tor 1  | Tor 4   |           | SE integration | Depart         |
+| Tor 2  | Tor 4   |           | SE integration |                |
