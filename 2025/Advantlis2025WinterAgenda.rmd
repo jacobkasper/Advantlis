@@ -5,7 +5,7 @@ output: rmarkdown::github_document
 Advantlis Working Group 2025-2027 funded by AG-Fisk grant
 (274)-2024-Advantlis.
 
-First workshop will be XX -- XX March, 2025 in Hafnarfjörður, Iceland.
+First workshop will be 28 April -- 2 May, 2025 in Hafnarfjörður, Iceland.
 
 ToRs (please add, edit as you see appropriate).
 
