@@ -48,5 +48,5 @@ Agenda:
            Tor 3     Tor 6                        SE integration
            Tor 3                                  SE integration
   Lunch    Lunch     Lunch       Lunch            Lunch
-  Tor 1    Tor 4                 SE integration   Depart
-  Tor 2    Tor 4                 SE integration   
+  Tor 1    Tor 4                 TBD              Depart
+  Tor 2    Tor 4                 TBD
