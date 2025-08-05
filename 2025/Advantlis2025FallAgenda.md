@@ -1,11 +1,9 @@
----
-output: rmarkdown::github_document
----
 
 Advantlis Working Group 2025-2027 funded by AG-Fisk grant
 (274)-2024-Advantlis.
 
-First workshop will be 28 April -- 2 May, 2025 in Hafnarfjörður, Iceland.
+First workshop will be 1 September – 5 September, 2025 in Woods Hole,
+MA, USA.
 
 ToRs (please add, edit as you see appropriate).
 
@@ -33,20 +31,19 @@ We will invite the economists to join us for Thursday and/or Friday.
 
 Some people at MFRI who I would like to invite. Erla Sturludóttir, if
 she can join for the whole time that would be great ash she is an
-Atlantis modeler and developed the Iceland model. Bjarki Elvarrson,
-who is the lead of the stock assessment team at MFRI and has very good
+Atlantis modeler and developed the Iceland model. Bjarki Elvarrson, who
+is the lead of the stock assessment team at MFRI and has very good
 thoughts on Atlantis implementation. I will ask Bjarki to join for
-discussion of ToRs 3 and 4. Julian Burgos, a benthic expert who is doing a 
-lot of work on 30x30 (ToR 4). Pamela Woods, a fisheries biologist with expertise
-in socioeconomic aspects (ToRs 3 and 6). If we keep ToR 8 then I would invite
-William Butler who has done some work using Atlantis as an OM for Gadget.
+discussion of ToRs 3 and 4. Julian Burgos, a benthic expert who is doing
+a lot of work on 30x30 (ToR 4). Pamela Woods, a fisheries biologist with
+expertise in socioeconomic aspects (ToRs 3 and 6). If we keep ToR 8 then
+I would invite William Butler who has done some work using Atlantis as
+an OM for Gadget.
 
 Agenda:
 
-  Monday   Tuesday   Wednesday   Thursday         Friday
-  -------- --------- ----------- ---------------- ----------------
-           Tor 3     Tor 6                        SE integration
-           Tor 3                                  SE integration
-  Lunch    Lunch     Lunch       Lunch            Lunch
-  Tor 1    Tor 4                 TBD              Depart
-  Tor 2    Tor 4                 TBD
+| Monday | Tuesday | Wednesday | Thursday | Friday |
+|:-------|:--------|:----------|:---------|:-------|
+| Tor 1  | Tor 2   | Tor 4     | Tor 5    | Tor 7  |
+| Lunch  | Lunch   | Lunch     | Lunch    | Lunch  |
+| Tor 2  | Tor 3   | Tor 4     | Tor 6    | Tor 8  |
