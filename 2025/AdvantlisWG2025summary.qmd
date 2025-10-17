@@ -1,0 +1,85 @@
+---
+title: "Advancing North Atlantic Marine Ecosystem Modelling and Economic Integration (Advantlis) I"
+author: "Jacob M. Kasper"
+format: pdf
+editor: visual
+---
+
+## Advantlis
+
+
+![](Group_photo.jpg){width=75%}
+
+Andrew Beet, Joseph Caracapa, Cecilie Hansen, Hem Nalini Morzaria Luna, Jacob Kasper, and Alberto Rovellini
+
+Woods Hole, USA
+
+1 September - 5 September 2025
+
+The Atlantis modelers who are part of the AGFisk (274)-2024-Advantlis met for one week as the initial meeting of the three year program.
+
+### Day 1
+
+Round table discussion of current research activities and needs.
+
+Hem: Pudget Sound and Gulf of Californias models overview, Mentioned Alaia's semi-automated calibration package.
+
+Cecilie: NoBa model, working on ACTNOW project and running simulations until 2100. Issues with baby whales, min_threshold, HCRs and their application to HCRs on forage fish.
+
+Albie: Gulf of Alaska. Working on ecosystem/multispecies harvest caps. Exploring AtlantisOM for multispecies assessment models.
+
+Andy: NEUS, multiple groundfish and scallop fleets which are forced by effort.
+
+During calibration process found spatial mismatch between effort and species distribution. No density dependent movement. When there was low abundance of scallops in an area with no fishing effort there was a lot of growth, fixed by adjusting initial conditions (init.cond) in that box. Also, for biomass pools if growth rate is \> F then the population increases. **There is a parameter to cap benthic concentration in an area, but it does not seem to work.** They are working with two branches, one is the previously mentioned fleets branch, and one is a forced catch branch. Rob Gamble is working on temperature thresholds, Tmax and Tmin in model to try to get expected movement with 10-20 year projections.
+
+Joe: NEUS, evaluating ecosystem overfishing thresholds and comparing them to global thresholds. Trying to reproduce system level caps in Atlantis (Link and Watson, 2019). The breakpoint is close to theroritical thresholds.
+
+Jacob: Icelandtis, working on MPAs. Ran with TS files and proportion of closures to compare to simple MPAs. Effort redistribution is now working for effort based fisheries. Maybe implementing MPAs by habitat type would be good with habitat_YYY but fish redistribution is a problem. Look at YYY_meff_thresh. Nested models are of interest. New oceanographic model, Albi has code to make new forcing files.
+
+#### Update on GitHub repo
+
+Andy: the goal is to push to main and then evaluate using GitHub actions. Do we want a suite of comparison plots? Different model fail flags. The Atlantis community will need to take turns reviewing new commits. When there is a new flag the model should: compile and finish, nothing should change when the new flag is turned off, and the new .prm should be clearly identified in the commit message. New flags should be indicated with lookups that provide ranges of possible values. It would be good to modify pre-rules for iOS users. Joe: new code should be pulled to a dev branch and wont be pushed until manual review. Reviewers will be assigned to review output of GitHub action, review code change, and documentation. Some automatic plots would also be helpful. Should Beth Fulton (Atlantis developer) review dev and commit to main? Everything should move to GitHub, CRISO wiki, manual in the wiki as a wiki, and questions which have in the past been posted to the Google Group. (What about announcements such as job advertisements which have typically gone to the Google Group?)
+
+#### Thermal responses
+
+Fish mammals, flat vs dome response. Respiration, Consumption, Growth, Mortality, c_mum, recruitment. Bioenergetic: Q10, 6 parameter function, 3 paramater_ome based BEModel Respiration needs to be tested Thermal threshold and movement need to betested Need boxes that are not viable to forced movement and *seasonal movement overrides temperature dependent movement* which needs to be addressed. Can set max/min temp (move) which reduces the bouncing back and fourth. Movement/spawning threshold Albi Puget Sound/GoA model best thermo response. Respiration is also important, be careful of consumption curve parameters
+
+### Day 2
+
+Interest in using, and problems with the spatial redistribution routine were mentioned a few times yesterday (climate change/temperature and MPAs). Perhaps could use seasonal biomass proportion as a work around, through forcing. Can only change core distribution with density dependence. Need to refine the distribution over time, maybe that is easier to fix than density dependent movement?
+
+The issue with density dependent movement is that once it is turned on the organisms immediately end up in any boxes that have one layer (except for invasive species?). Also is prey density considered in ddepend? Possible issues: speed_xxx, decay_ddepend_id checked speed via fprint, and it is correct, but bm-\>width is not the box width, but rather model domain width. Fixed this by adding code to atgeomIO.c to calculate box_width. Spent the rest of the day debugging various parts of atmovement.c, contaminants, and working on migration to github.
+
+### Day 3
+
+Started day with summary of previous day.
+
+Jacob: reviewed changes in atmovement.c.
+
+Hem: documented options for ddepend and how it is used with other parameters "see [Movement & density parameters](https://docs.google.com/document/d/1z8ZmbtU0N1dl_qFHwmZYs4s6YTidHdzN8BQbTnCdlqg/edit?exids=71471483,71471477&tab=t.0)" on Google drive.
+
+Joe: L392 of atmovement.c food availability is biomass of all prey species, not gape width/prey value. Abundance of predators could be a large draw even if not important prey.\
+
+Cecilie: How is Roc built up?
+
+Albi: Next step of environmental any movement is new data. Each time step checks against current value, but should be a period, not just one day.
+
+Spent much of the day continuing debugging.
+
+Alaia Morell (Hem's postdoc) joined us remotely from France and gave a presentation on semiautomatization of Atlantis model calibration using the calibrar R package.\
+\
+We then spent the remainder of the afternoon planning the next steps in the AGFisk project, particularly the linking the Atlantis model to socioeconomic models. Cecilie spoke about partner Yuanming Ni at the School of Economics in Bergen. Yuanming used Herring, Capelin, and Cod data to train the neural network looking at interaction, overlap and complicated relationship to identity HCRs for those stocks. Got HCRs as MFCs back into the model and used them for a set of simulations. 14 different zooplankton and growth forcing (catch, biomass, age).
+
+Discussed internal/external socioeconomic models, external may be faster and then can use existing economic models. There is an R link in Atlantis, but no one seems to know how to use it.
+
+### Day 4
+
+Started the day out with a remote meeting with Beth Fulton, the developer of Atlantis. Introduced the GitHub proposal and discussed having a code of conduct. Andy went over the methods and how to manage the trunk, the roles of individuals in the group, and guidelines in how to contribute. The **main branch** should only have major releases with version control. A **major release** is, for example, when a new input file is added. We reviewed naming convention, and chose to use major.minor.patch. Dev branches are for testing, when pushed that triggers a new release. Anyone who want to deploy an update should push to dev branch and then two reviewers. A pool of people are needed to assign them to look at the code. First person approves, then second approves and pushes. What is needed to test for broken models? Beth provided the old wiki for us to push to GitHub. Also agreed to convert manual to GitHub as either a wiki or quarto website.
+
+Jason Link joined us for lunch and a general Atlantis discussion. Talked about model skills, tiers and hcrs, interest in implementing ecosystem caps similar to Albie. Before economic analysis should make spatial fleets, also discussed the possibility of NOAA hiring a code developer to work on Atlantis code.
+
+Goals:
+
+Github by February, wiki/manual, code of conduct, GitHub actions, model descriptions, and review protocol.
+
+Code by February, ddepend distribution fix, box width, how_far, spawn_move.
