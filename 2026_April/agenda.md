@@ -3,6 +3,9 @@
 **Dates:** 20–24 April 2026  
 **Venue:** Institute of Marine Research (IMR), Bergen  
 **Accommodation:** [Comfort Hotel Bergen](https://maps.app.goo.gl/Vfh44tXs1SsPpdUi9)  
+**Teams Link:** https://teams.microsoft.com/meet/391371186636499?p=q2sQPprdUQRcTfWIwN
+Meeting ID: 391 371 186 636 499
+Passcode: Dy9MV2P9
 
 ## Logistics
 
@@ -22,7 +25,7 @@
 | 08:30 – 09:00 | Welcome & meeting overview | Jacob |
 | 09:00 – 12:00 | **Rlink for Atlantis — status & progress** | Erla |
 | | Current state of the R–Atlantis interface, demonstration, and group discussion | |
-| 12:00 – 13:00 | *Lunch — IMR Canteen* | |
+| 12:00 – 13:00 | *Lunch — TBD* | |
 | 14:00 – 16:00 | **Ocean Security and Geopolitics in a Changing World** | External event |
 | | 📍 Radisson Blu Royal Hotel, Bryggen | |
 
@@ -72,7 +75,7 @@
 | 12:00 – 13:00 | *Lunch — IMR Canteen* | |
 | 13:00 – 17:00 | **Collaborative coding session** | All |
 | | Hands-on implementation work in pairs or small groups | |
-
+| | Fairwell dinner at Allmuen | |
 ---
 
 ## Friday 24 April — Coding & Wrap-up
