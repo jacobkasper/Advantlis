@@ -10,9 +10,9 @@
 
 | Session | Note-taker |
 |---------|------------|
-| Mon AM — Rlink (Erla) | Jacob |
+| Mon AM — GitHub workflows (Andy) | Joe |
 | Mon PM — Geopolitics event | NA |
-| Tue AM — GitHub workflows (Andy) | Joe |
+| Tue AM — Rlink (Erla) | Jacob |
 | Tue PM — Debugging & improvements | Cecilie |
 | Tue PM — Manual & wiki (Albi) | Hem |
 | Wed AM — Beth remote / GitHub org | Andy |
