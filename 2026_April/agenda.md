@@ -3,9 +3,10 @@
 **Dates:** 20–24 April 2026  
 **Venue:** Institute of Marine Research (IMR), Bergen  
 **Accommodation:** [Comfort Hotel Bergen](https://maps.app.goo.gl/Vfh44tXs1SsPpdUi9)  
-**Teams Link:** https://teams.microsoft.com/meet/391371186636499?p=q2sQPprdUQRcTfWIwN
-Meeting ID: 391 371 186 636 499
-Passcode: Dy9MV2P9
+**Teams Link:** https://teams.microsoft.com/meet/395651385722137?p=njJT2ucVsppwKHy0S2
+Meeting ID: 395 651 385 722 137
+Passcode: 2gA3xA2N
+
 
 ## Logistics
 
