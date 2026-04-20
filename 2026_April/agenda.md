@@ -23,9 +23,14 @@ Passcode: Dy9MV2P9
 | Time | Session | Lead |
 |------|---------|------|
 | 08:30 – 09:00 | Welcome & meeting overview | Jacob |
-| 09:00 – 12:00 | **Rlink for Atlantis — status & progress** | Erla |
+| 09:00 – 11:00 | **Debugging & model improvements — general update** | All |
+| | Progress since last meeting; presentations and group discussion | |
+| | • Jacob: effort displacement, detailed catch report, cdfredistiller | |
+| | • Hem / Cecilie: contaminants module | |
+| | • Other contributions welcome | |
+| 11:00 – 12:30 | **Rlink for Atlantis — status & progress** | Erla |
 | | Current state of the R–Atlantis interface, demonstration, and group discussion | |
-| 12:00 – 13:00 | *Lunch — TBD* | |
+| 12:30 – 14:00 | *Lunch — TBD* | |
 | 14:00 – 16:00 | **Ocean Security and Geopolitics in a Changing World** | External event |
 | | 📍 Radisson Blu Royal Hotel, Bryggen | |
 
